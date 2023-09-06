@@ -213,7 +213,7 @@ function colocarMines() {
         const divAmbMina = document.querySelector(`[data-x='${randomX}'][data-y='${randomY}']`)
 
         divAmbMina.setAttribute("data-mina", "true")
-        divAmbMina.style.backgroundColor = "orange"
+        /* divAmbMina.style.backgroundColor = "orange" */
     }
 }
 
